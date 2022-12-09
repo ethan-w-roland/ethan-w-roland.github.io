@@ -1,1 +1,59 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ethan Roland</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Ethan Roland, 
+        Atlanta GA, Homepage and Social Media Links,
+        Data Science, Optics, Robotics, Artificial Intelligence">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <link rel="icon" href="e_logo.png">
+    </head>
+    <body>
+        <header>
+            <div id="header-content">
+                <div id="header-title">Ethan Roland</div>
+                <div id="header-links">
+                    <a href="https://github.com/ethan-w-roland/">Github</a>
+                    <a href="Ethan_Roland_Resume.pdf">Resumé</a>
+                </div>
+            </div>
+            <hr>
+        </header>
+        <main>
+            <div id="img-container">
+                <img id="ethan-pic" src="ethan.webp" width=400 height=400 alt="Ethan Roland Headshot">
+            </div>
+            <div id="text">
+                I'm a data scientist and software engineer out of Atlanta, GA. My interests include artificial intelligence,
+                robotics, optics, linguistics, economics, and entrepreneurship. I'm also involved in the Effective Altruism
+                community and you can often spot me at local Atlanta EA events. Some of my current projects include building
+                laser projectors and 3D printed robotics. Outside of tech, I spend most of my time reading, cooking, or watching
+                movies with my partner and our cat.
+            </div>
+            
+        </main>
+        <footer>
+            <hr>
+            <div id="social-bar">
+                <a href="https://www.linkedin.com/in/ethan-roland/">
+                    <img class="icon" src="linkedin.png" alt="linkedin icon">
+                </a>
+                <a href="https://github.com/ethan-w-roland/">
+                    <img class="icon" src="github.png" alt="github icon">
+                </a>
+                <a href="https://twitter.com/RolandTweats">
+                    <img class="icon" src="twitter.png" alt="twitter icon">
+                </a>
+                <a href="mailto:info@ethan-w-roland.com">
+                    <img class="icon" src="email.png" alt="email icon">
+                </a>
+                <div id="credit">E. Roland</div>
+            </footer>
+        </div>
+    </body>
+    <script>
+        document.getElementById("credit").innerHTML = "E. Roland, " + new Date().getFullYear();
+    </script>
+</html>
